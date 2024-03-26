@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <h1>Coffee aur code</h1>
+    <h1>Coffee aur React</h1>
     
   );
 }
