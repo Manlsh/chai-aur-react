@@ -12,16 +12,18 @@ const [string, setString] = useState('');
 const addValue = () => {
   if (counter < 20) {
    setCounter((add) => add + 1);
+   setString('');
   } else {
-    setString('Cant go above 20')
+    setString("Can't go above 20")
   }
 }
 
 const MinusValue = () => {
   if (counter > 0) {
   setCounter((minus) => minus - 1);
+  setString('');
   } else {
-    setString('Cant go below 0');
+    setString("Can't go below 0");
   }
 }
 
