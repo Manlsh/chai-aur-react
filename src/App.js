@@ -12,6 +12,11 @@ const [string, setString] = useState('');
 const addValue = () => {
   if (counter < 20) {
    setCounter((add) => add + 1);
+   /*
+   setCounter((add) => add + 1);
+   setCounter((add) => add + 1);
+   setCounter((add) => add + 1);
+   */
    setString('');
   } else {
     setString("Can't go above 20")

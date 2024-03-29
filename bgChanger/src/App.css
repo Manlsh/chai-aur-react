@@ -1,0 +1,38 @@
+.App {
+  width: 20px;
+  height: 20px;
+}
+
+.red {
+  margin-right: 10px;
+  background-color: red;
+  color: #fff;
+}
+
+.blue {
+  margin-right: 10px;
+  background-color: blue;
+  color: #fff;
+}
+
+.green {
+  margin-right: 10px;
+  background-color: green;
+  color: #fff;
+}
+
+.Olive {
+  margin-right: 10px;
+  background-color: olive;
+  color: #fff;
+}
+
+.yellow {
+  background-color: yellow;
+  margin-right: 10px;
+}
+
+.orange {
+  background-color: orange;
+}
+
