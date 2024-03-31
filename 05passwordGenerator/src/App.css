@@ -69,7 +69,10 @@
 
 .slider {
   color: #2196F3;
+  cursor: pointer;
 }
+
+
 
 
 .number {
