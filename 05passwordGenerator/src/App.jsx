@@ -69,7 +69,9 @@ function App() {
       placeholder='password'
       ref={passwordRef}
       />
+      
       </div>
+
 
       <div className='button-container'>
       <button onClick={copyPasswordToClip} className='button'>{copyText}</button> 

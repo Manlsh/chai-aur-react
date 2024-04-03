@@ -1,0 +1,78 @@
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.form-container {
+  max-width: 30rem;
+  margin: auto;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#conversion-form {
+  width: 100%;
+}
+
+.input-box {
+  margin-bottom: 1rem;
+}
+
+.input-box label {
+  display: block;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.swap-button {
+  position: relative;
+  width: 100%;
+  height: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.swap-button button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
