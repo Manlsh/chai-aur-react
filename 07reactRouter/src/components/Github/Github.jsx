@@ -13,7 +13,6 @@ function Github() {
       setDate(data)
     })
   })
-
 */
 
   return (
@@ -25,9 +24,6 @@ function Github() {
 }
 
 export default Github;
-
-
-
 
 
 export const githubInfoLoader = async () => {
